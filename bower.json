@@ -18,10 +18,15 @@
   ],
   "dependencies": {
     "purescript-partial": "git://github.com/purerl/purescript-partial.git#master",
-    "purescript-tuples": "^3.0.0"
+    "purescript-tuples": "^3.0.0",
+    "purescript-foldable-traversable": "git://github.com/purerl/purescript-foldable-traversable.git#master"
   },
   "devDependencies": {
     "purescript-assert": "git://github.com/purerl/purescript-assert.git#master",
     "purescript-console": "git://github.com/purerl/purescript-console.git#master"
+  },
+  "resolutions": {
+    "purescript-prelude": "master",
+    "purescript-foldable-traversable": "master"
   }
 }
